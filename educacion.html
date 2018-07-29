@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, user-scalable = no">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <p>
+        <h1>
+          <svg width = "150" height = "150" viewBox="0 0 150 150">
+            <image xlink:href="image/dibujo.svg" alt="Imagen_logo" width="150" height="150"></image>
+          </svg>
+        Hoja de Vida
+      </h1>
+      <br>
+      <h2>Uriel Colin Peñafiel</h2>
+      <h3>12-Enero-1995 CDMX-México</h3>
+      <p>
+        <a href="index.html">Inicio</a> | <a href="experiencia.html">Experiencia</a>
+      </p>
+    </header>
+    <p>Hola esta es la pagina de Educación </p>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2013</td>
+          <td>CETIS NO. 33</td>
+          <td>Delegación Azcapozalco</td>
+          <td>Concluido</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>Universidad de Londres</td>
+          <td> Calle Dr Velasco 73, Doctores, 06720 Ciudad de México, CDMX</td>
+          <td>En curso</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>NEXTU</td>
+          <td>Sitio WEB</td>
+          <td>En curso</td>
+        </tr>
+      </tbody>
+    </table>
+    <form  autocomplete="on" name="agregar_estudios">
+      <fieldset>
+        <legend>Agregar Estudios</legend>
+        <p>
+          <strong>Año</strong>
+          <select name="años">
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+          </select>
+        </p>
+        <p>
+          <strong>Intitucion</strong>
+          <input type="text" name="name_inst" checked required>
+        </p>
+        <p>
+          <strong>Lugar</strong>
+          <textarea name="direccion" rows="4" cols="80"></textarea>
+        </p>
+        <input type="submit" name="env_datos">
+      </fieldset>
+    </form>
+    <footer>
+      <h4>Contacto</h4>
+      <a href="mailto:uron_13@outlook.com">Correo</a> | <a href="https://www.facebook.com/P4tOcoOlin">Facebook</a>
+    </footer>
+  </body>
+</html>
